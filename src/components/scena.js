@@ -77,6 +77,34 @@ export default function Scene(){
             </Pannellum>
 
             <Modal isOpen={isOpen} close ={()=>closeModal()}>
+                <div style={{ display: 'flex',
+                    border: '1px solid white',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    width: '75%',
+                    minHeight: '50vh',
+                    padding:'100px',
+                    marginLeft:'70px'
+                }}>
+                    <div style={{ width: '500px',
+                        height: '300px',
+                        border: '1px solid white',
+                        display: 'flex',
+                        margin:'50px',
+                        alignItems: 'center',
+                        justifyContent: 'center' }}>
+                        <h1 style={{color:'white'}}>IMAGEN DETALLE</h1>
+                    </div>
+                    <div style={{ width: '500px',
+                        height: '300px',
+                        border: '1px solid white',
+                        display: 'flex',
+                        margin:'50px',
+                        alignItems: 'center',
+                        justifyContent: 'center' }}>
+                        <h1 style={{color:'white'}}>IMAGEN DETALLE</h1>
+                    </div>
+                </div>
             </Modal>
         </>
     )
